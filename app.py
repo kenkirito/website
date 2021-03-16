@@ -12,11 +12,11 @@ app.config.update (
     MAIL_SERVER='smtp.gmail.com',
     MAIL_PORT=465,
     MAIL_USE_SSL=True,
-    MAIL_USERNAME='nehasharma23156@gmail.com',
-    MAIL_PASSWORD='knightsnake1234'
+    MAIL_USERNAME='',
+    MAIL_PASSWORD=''
 )
 
-app.secret_key = 'ghjhjhq/213763fbf'
+app.secret_key = ''
 
 mail = Mail (app)
 
